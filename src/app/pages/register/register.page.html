@@ -1,0 +1,131 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]="registration" (ngSubmit)="register()">
+    <ion-item>
+      <ion-label position="floating">Nombre </ion-label>
+      <ion-input required formControlName="user_name" type="text"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.name">
+      <ng-container *ngIf="name.hasError(error.type) && (name.dirty || name.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">Tipo De Identificacion </ion-label>
+      <ion-input required formControlName="user_type_id" type="text"></ion-input>
+    </ion-item>
+    
+    <div *ngFor="let error of errors.typeId">
+      <ng-container *ngIf="typeId.hasError(error.type) && (typeId.dirty || typeId.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+
+    <ion-item>
+      <ion-label position="floating">Numero de la identificacion </ion-label>
+      <ion-input required formControlName="user_num_id" type="text"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.numId">
+      <ng-container *ngIf="numId.hasError(error.type) && (numId.dirty || numId.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">cuidad </ion-label>
+      <ion-input required formControlName="user_city" type="text"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.city">
+      <ng-container *ngIf="city.hasError(error.type) && (city.dirty || city.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">Departamento </ion-label>
+      <ion-input required formControlName="user_department" type="text"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.department">
+      <ng-container *ngIf="department.hasError(error.type) && (department.dirty || department.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+
+    <ion-item>
+      <ion-label position="floating">Direccion </ion-label>
+      <ion-input required formControlName="user_addres" type="text"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.addres">
+      <ng-container *ngIf="addres.hasError(error.type) && (addres.dirty || addres.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">Genero </ion-label>
+      <ion-input required formControlName="user_gender" type="text"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.gender">
+      <ng-container *ngIf="gender.hasError(error.type) && (gender.dirty || gender.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">Correo </ion-label>
+      <ion-input required formControlName="user_email" type="email"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.email">
+      <ng-container *ngIf="email.hasError(error.type) && (email.dirty || email.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+    
+
+    <ion-item>
+      <ion-label position="floating">Password </ion-label>
+      <ion-input required formControlName="user_password" type="password"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.password">
+      <ng-container *ngIf="password.hasError(error.type) && (password.dirty || password.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+    
+    <ion-item>
+      <ion-label position="floating">rol </ion-label>
+      <ion-input required formControlName="user_role" type="text"></ion-input>
+    </ion-item>
+
+    <div *ngFor="let error of errors.rol">
+      <ng-container *ngIf="rol.hasError(error.type) && (rol.dirty || rol.touched)">
+        <small class="error-message">{{error.message}}</small>
+      </ng-container>
+    </div>
+
+
+    <ion-button block color="primary" type="submit" [disabled]="registration.invalid">
+      Resgiter
+    </ion-button>
+  </form>
+
+</ion-content>
