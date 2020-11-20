@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>graficas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-card>
+    <ion-card-content>
+      <div class="chart-container">
+        <canvas id="grafica"  ></canvas>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <div class="chart-container">
+        <canvas id="grafica2"  height="250px" ></canvas>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button (click)="datos()" expand="block" fill="clear" shape="round">
+    Click me
+  </ion-button>
+
+</ion-content>

@@ -1,0 +1,2355 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>formulario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 1</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Tengo fama de decir lo que pienso claramente y sin rodeos.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="1" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 2</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Estoy seguro(a) de lo que es bueno y lo que es malo, lo que está bien y lo que está mal.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="2" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 3</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Muchas veces actúo sin mirar las consecuencias.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="3" (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 4</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Normalmente trato de resolver los problemas metódicamente y paso a paso.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="4" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 5</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Creo que los formalismos coartan y limitan la actuación libre de las personas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="5" (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 6</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me interesa saber cuáles son los sistemas de valores de los demás y con qué criterios actúan.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="6" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 7</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Pienso que el actuar intuitivamente puede ser siempre tan válido como actuar reflexivamente.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="7" (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 8</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Creo que lo más importante es que las cosas funcionen.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="8" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 9</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Procuro estar al tanto de lo que ocurre aquí y ahora.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="9" (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 10</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Disfruto cuando tengo tiempo para preparar mi trabajo y realizarlo a conciencia.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="10" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 11</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Estoy a gusto siguiendo un orden, en las comidas, en el estudio, haciendo ejercicio regularmente.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="11" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 12</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Cuando escucho una nueva idea enseguida comienzo a pensar como ponerla en práctica.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="12" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 13</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Prefiero las ideas originales y novedosas aunque no sean prácticas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="13" (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 14</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Admito y me ajusto a las normas sólo si me sirven para lograr mis objetivos.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="14" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 15</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Normalmente encajo bien con personas reflexivas, y me cuesta sintonizar con personas demasiado espontáneas, imprevisibles.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="15" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 16</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Escucho con más frecuencia que lo que hablo.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="16" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 17</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Prefiero las cosas estructuradas a las desordenadas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="17" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 18</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Cuando poseo cualquier información, trato de interpretarla bien antes de manifestar alguna conclusión.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="18" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 19</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Antes de hacer algo estudio con cuidado sus ventajas e inconvenientes.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="19" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 20</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me crezco con el reto de hacer algo nuevo y diferente.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="20" (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 21</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Casi siempre procuro ser coherente con mis criterios y sistemas de valores. Tengo principios y los sigo
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="21" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 22</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Cuando hay una discusión no me gusta ir con rodeos.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="22" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 23</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me disgusta implicarme afectivamente en mi ambiente de trabajo. Prefiero mantener relaciones distantes.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="23" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 24</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me gustan más las personas realistas y concretas que las teóricas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="24" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 25</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me cuesta ser creativo(a), romper estructuras.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="25" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 26</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me siento a gusto con personas espontaneas y divertidas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="26"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 27</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      La mayoría de las veces expreso abiertamente cómo me siento.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="27"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 28</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me gusta analizar y dar vueltas a las cosas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="28" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 29</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me molesta que la gente no se tome en serio las cosas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="29" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 30</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me atrae experimentar y practicar las últimas técnicas y novedades.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="30" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 31</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Soy cauteloso(a) a la hora de sacar conclusiones.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="31" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 32</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Prefiero contar con el mayor número de fuentes de información. Cuantos más datos reúna para reflexionar, mejor.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="32" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 33</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Tiendo a ser perfeccionista.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="33" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 34</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Prefiero oír las opiniones de los demás antes de exponer la mía.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="34" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 35</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me gusta afrontar la vida espontáneamente y no tener que planificar todo previamente.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="35"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 36</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      En las discusiones me gusta observar cómo actúan los demás participantes.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="36" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 37</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me siento incómodo(a) con las personas calladas y demasiado analíticas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="37"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 38</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Juzgo con frecuencia las ideas de los demás por su valor práctico.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="38" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 39</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me agobio si me obligan a acelerar mucho el trabajo para cumplir un plazo.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="39" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 40</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      En las reuniones apoyo las ideas prácticas y realistas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="40" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 41</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Es mejor gozar del momento presente que deleitarse pensando en el paso o en el futuro.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="41"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 42</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me molestan las personas que siempre desean apresurar las cosas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="42" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 43</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Aporto ideas nuevas y espontáneas en los grupos de discusión.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="43"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 44</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Pienso que son más consistentes las decisiones fundamentadas en un minucioso análisis que las basadas en la intuición.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="44" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 45</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Detecto frecuentemente la inconsistencia y puntos débiles en las argumentaciones de los demás.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="45" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 46</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Creo que es preciso saltarse las normas muchas más veces que cumplirlas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="46"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 47</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      A menudo caigo en la cuenta de otras formas mejores y más prácticas de hacer las cosas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="47" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 48</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      En conjunto hablo más que escucho.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="48"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 49</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Prefiero distanciarme de los hechos y observarlos desde otras perspectivas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="49" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 50</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Estoy convencido(a) que debe imponerse la lógica y el razonamiento.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="50" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 51</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me gusta buscar nuevas experiencias.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="51"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 52</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me gusta experimentar y aplicar las cosas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="52" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 53</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Pienso que debemos llegar pronto al grano, al meollo de los temas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="53" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 54</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Siempre trato de conseguir conclusiones e ideas claras.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="54" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 55</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Prefiero discutir cuestiones concretas y no perder el tiempo con charlas vacías.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="55" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 56</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      . Me impaciento cuando me dan explicaciones irrelevantes e incoherentes.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="56" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 57</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Compruebo antes si las cosas funcionan realmente.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="57" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 58</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Hago varios borradores antes de la redacción definitiva de un trabajo.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="58" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 59</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Soy consciente de que en las discusiones ayudo a mantener a los demás centrados en el tema, evitando divagaciones.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="59" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 60</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Observo que, con frecuencia, soy uno(a) de los(as) más objetivos(as) y desapasionados(as) en las discusiones.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="60" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 61</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Cuando algo va mal, le quito importancia y trato de hacerlo mejor.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="61"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 62</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Rechazo ideas originales y espontáneas si no las veo prácticas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="62" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 63</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me gusta sopesar diversas alternativas antes de tomar una decisión.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="63" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 64</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Con frecuencia miro hacia adelante para prever el futuro.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="64" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 65</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      En los debates y discusiones prefiero desempeñar un papel secundario antes que ser el(la) líder o el(la) que más participa.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="65" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 66</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me molestan las personas que no actúan con lógica.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="66" (ionChange)="TeoricoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 67</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Me resulta incómodo tener que planificar y prever las cosas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="67"  (ionChange)="activoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 68</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Creo que el fin justifica los medios en muchos casos.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="68" (ionChange)="pragmaticoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 69</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Suelo reflexionar sobre los asuntos y problemas.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="69" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pregunta 70</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      El trabajar a conciencia me llena de satisfacción y orgullo.
+    </ion-card-content>
+
+    <ion-list>
+      <ion-radio-group value="70" (ionChange)="ReflexivoRes($event)">
+        <ion-list-header>
+          <ion-label>Respuesta</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+
+  </ion-card>
+
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 71</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Ante los acontecimientos trato de descubrir los principios y teorías en que se basa.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="71" (ionChange)="TeoricoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 72</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Con tal de conseguir el objetivo que pretendo soy capaz de herir sentimientos ajenos.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="72" (ionChange)="pragmaticoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 73</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    No me importa hacer todo lo necesario para que sea efectivo mi trabajo.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="73" (ionChange)="pragmaticoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 74</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Con frecuencia soy una de las personas más anima las fiestas.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="74"  (ionChange)="activoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 75</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Me aburro enseguida con el trabajo metódico y minucioso.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="75"  (ionChange)="activoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 76</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    La gente con frecuencia cree que soy poco sensible a sus sentimientos.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="76" (ionChange)="pragmaticoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 77</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Suelo dejarme llevar por mis intuiciones.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="77"  (ionChange)="activoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 78</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Si trabajo en grupo procuro que se siga un método y un orden.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="78" (ionChange)="TeoricoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 79</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Con frecuencia me interesa averiguar lo que piensa la gente.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="79" (ionChange)="ReflexivoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Pregunta 80</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Esquivo los temas subjetivos, ambiguos y poco claros.
+  </ion-card-content>
+
+  <ion-list>
+    <ion-radio-group value="80" (ionChange)="TeoricoRes($event)">
+      <ion-list-header>
+        <ion-label>Respuesta</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Si</ion-label>
+        <ion-radio slot="start" value="Si"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No</ion-label>
+        <ion-radio slot="start" value="No"></ion-radio>
+      </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+
+  <ion-button (click)="Sum()" expand="block" fill="clear" shape="round" color="danger">
+    Enviar
+  </ion-button>
+
+</ion-card>
+
+</ion-content>

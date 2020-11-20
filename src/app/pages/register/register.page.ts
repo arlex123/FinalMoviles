@@ -135,4 +135,9 @@ export class RegisterPage implements OnInit {
     
   }
 
+  regresar (){
+
+    this.router.navigate(['/']);
+  }
+
 }

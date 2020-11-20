@@ -11,13 +11,18 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
   },
-  {
-    path: 'tabs',
-    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
-  },
+
   {
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'formulario',
+    loadChildren: () => import('./pages/formulario/formulario.module').then( m => m.FormularioPageModule)
+  },
+  {
+    path: 'graficas',
+    loadChildren: () => import('./pages/graficas/graficas.module').then( m => m.GraficasPageModule)
   },
 ];
 @NgModule({
